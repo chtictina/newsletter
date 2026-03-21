@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter Signup </title>
+</head>
+<body>
+
+       <!-- Header -->
+    <header>
+        <h1>SHE NEWS LETTER</h1>
+        
+            
+        <nav>
+                <a href="#">Home</a>
+                <a href="#">Archive</a>
+                <a href="#">News</a>
+            
+            </nav>   
+                
+        
+        
+    </header>
+
+    <main>
+        <section>
+            <h2>Join Our Community for Weekly Update</h2>
+            <form action="#" method="post">
+
+                   <!-- Full Name: Text -->
+
+                <div>
+                    <label for="full-name">Full Name:</label>
+                    <input type="text" id="full-name" name="full-name" required>
+                </div><br>
+
+                    <!-- Email: Email -->
+
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div><br>
+
+                  <!-- Age: Number -->
+
+                <div>
+                    <label for="age">Age:</label>
+                    <input type="number" id="age" name="age" min="13" max="120">
+                </div><br>
+
+                 <!-- How did you hear?: Select -->
+
+                <div>
+                    <label for="source">How did you hear?</label>
+                    <select id="source" name="source">
+                        <option value="">Select</option>
+                        <option value="social-media">Social Media</option>
+                        <option value="friend">Friend</option>
+                        <option value="ad">Ad</option>
+                        <option value="search">Search</option>
+                    </select>
+                </div><br>
+
+                  <!-- Interests  -->
+                <div>
+                    <p>Interests:</p>
+                    <input type="checkbox" id="tech" name="interests" value="Tech">
+                    <label for="tech">Tech</label><br>
+                    <input type="checkbox" id="health" name="interests" value="Health">
+                    <label for="health">Health</label><br>
+                    <input type="checkbox" id="business" name="interests" value="Business">
+                    <label for="business">Business</label><br>
+                    <input type="checkbox" id="entertainment" name="interests" value="Entertainment">
+                    <label for="entertainment">Entertainment</label>
+                </div><br>
+                
+               <!-- Frequency  -->
+                <div>
+                    <p>Preferred Frequency:</p>
+                    <input type="radio" id="daily" name="frequency" value="Daily" required>
+                    <label for="daily">Daily</label><br>
+                    <input type="radio" id="weekly" name="frequency" value="Weekly">
+                    <label for="weekly">Weekly</label><br>
+                    <input type="radio" id="monthly" name="frequency" value="Monthly">
+                    <label for="monthly">Monthly</label>
+                </div><br>
+
+                 <!-- Comments -->
+                <div>
+                    <label for="comments">Comments:</label><br>
+                    <textarea id="comments" name="comments" rows="4"></textarea>
+                </div><br>
+
+                <!-- Subscribe Button -->
+                <button type="submit">Subscribe</button>
+            </form>
+        </section><br>
+
+        
+       
+        <!-- Popular Topics Section -->
+        <section>
+            <h2>Popular Topics This Week</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Topic</th>
+                        <th>Articles</th>
+                        <th>Most Popular Day</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Tech News</td>
+                        <td>12</td>
+                        <td>Monday</td>
+                    </tr>
+                    <tr>
+                        <td>web Dev</td>
+                        <td>8</td>
+                        <td>Wednesday</td>
+                    </tr>
+                    <tr>
+                        <td>Startups</td>
+                        <td>5</td>
+                        <td>Friday</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main><br>
+
+    <footer>
+        <p>&copy; 2026 She NewsLetter Weekly. Stay curious.</p>
+    </footer>
+
+</body>
+</html>
